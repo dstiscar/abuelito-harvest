@@ -1,0 +1,129 @@
+{
+    "Title": "Abuelito's Harvest",
+    "Credits": "Created by Diego Tiscareno (dstiscar@ucsc.edu).",
+    "InitialLocation": "garden",
+    "Locations": {
+        "garden": {
+            "Body": "You and your dog Sabrina are in the backyard. A tall tree covered in fruit is in front of you. Your plan is to harvest the fruit and collect them in your basket.\n",
+            "Choices": [
+                {
+                    "Text": "Take fruit",
+                    "Target": "treetrue"
+                },
+                {
+                    "Text": "Store fruit in basket",
+                    "Target": "baskettrue"
+                },
+                {
+                    "Text": "Pet dog",
+                    "Target": "petdogtrue"
+                },
+                {
+                    "Text": "Go to shed",
+                    "Target": "shed"
+                }
+            ]
+        },
+        "shed": {
+            "Body": "You are standing on the patio where your shed is. There are a lot of gardening tools inside.\n",
+            "Choices": [
+                {
+                    "Text": "Get palo",
+                    "Target": "getpalotrue"
+                },
+                {
+                    "Text": "Call dog",
+                    "Target": "calldogtrue"
+                },
+                {
+                    "Text": "Go to garden",
+                    "Target": "garden"
+                }
+            ]
+        },
+        "treetrue": {
+            "Body": "After collecting all of the fruit from the tree using your palo (fruit-catching tool), you should now store them into the basket.\n",
+            "Choices": [
+                {
+                    "Text": "Back to garden",
+                    "Target": "garden"
+                }
+            ]
+        },
+        "petdogtrue": {
+            "Body": "You walk up to your dog Sabrina and start petting her. Being the rascal that she is, she will likes to snatch any fruit you collect from the tree. You will have to think of a way to dilute divert her attention.\n",
+            "Choices": [
+                {
+                    "Text": "Back to garden",
+                    "Target": "garden"
+                }
+            ]
+        },
+        "getpalotrue": {
+            "Body": "You look in the shed and find a palo (fruit-catching tool). This will do great work with this harvest. You should head back to the tree now.\n",
+            "Choices": [
+                {
+                    "Text": "Back to shed",
+                    "Target": "shed"
+                }
+            ]
+        },
+        "calldogtrue": {
+            "Body": "You call your dog to come over to the patio. She arrives almost immediately and lies down on her comfy bed. Your harvesting is now free from any distractions.\n",
+            "Choices": [
+                {
+                    "Text": "Back to shed",
+                    "Target": "shed"
+                }
+            ]
+        },
+        "baskettrue": {
+            "Body": "After filling the basket with fresh fruit, you call your dog once more and you both go back inside the house. A harvest well done!\n"
+        },
+        "treefalse": {
+            "Body": "You need a tool to help you reach the fruit from the tree. Maybe you can find one in the shed?\n",
+            "Choices": [
+                {
+                    "Text": "Back to garden",
+                    "Target": "garden"
+                }
+            ]
+        },
+        "petdogfalse": {
+            "Body": "Your dog is over at the patio and away from the tree. It is now safe to continue your harvest.\n",
+            "Choices": [
+                {
+                    "Text": "Back to garden",
+                    "Target": "garden"
+                }
+            ]
+        },
+        "getpalofalse": {
+            "Body": "There are plenty of useful tools in the shed that can help you harvest fruit, but the palo (fruit-catching tool) will do the job best.\n",
+            "Choices": [
+                {
+                    "Text": "Back to shed",
+                    "Target": "shed"
+                }
+            ]
+        },
+        "calldogfalse": {
+            "Body": "Your dog is now sunbathing on the patio bed. You’re sure that she will not notice any fruit-collecting in the garden.\n",
+            "Choices": [
+                {
+                    "Text": "Back to shed",
+                    "Target": "shed"
+                }
+            ]
+        },
+        "basketfalse": {
+            "Body": "You walk up to your basket and think about what you need to do: You have to store the fruit you collected from the tree, as well as keep your dog from eating any of them.\n",
+            "Choices": [
+                {
+                    "Text": "Back to garden",
+                    "Target": "garden"
+                }
+            ]
+        }
+    }
+}
